@@ -5,7 +5,9 @@ set_include_path(get_include_path().
  function __autoload($class)
  {
      require_once $class.".php";
- }
-         $request=$_SERVER['REQUEST_URI'];
-            $splits
+ }              if(isset($_GET['addnews']))
+         if($_GET['addnews']=='addnews')
+             header('Location:view/adminForm.php');
+
+         include 'main.php';
 ?>

@@ -56,33 +56,27 @@
             margin: auto;
         }
         header{
-            margin-top: 10px;
             height: 60px;
             background-color: aquamarine;
             
         }
         header nav li {
-            padding: 30px;
             list-style-type: none;
            margin-top: 30px;
+            display: inline;
 
         }
-        a{
-            padding: 10px;
-            background-color: black;
-            text-decoration: none;
-            color: darkred;
-            border-radius:9px ;
-        }
+
         footer{
             background-color: aquamarine;
-            position: absolute;
 
-            bottom:0;
             height:20px;
 
         }
-        
+         .divider{
+             margin-top: 10px;
+             border: 10px solid black;
+         }
     </style>
 
 

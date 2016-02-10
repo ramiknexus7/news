@@ -21,7 +21,7 @@
       }
     public function getAllNews()
     {
-       $sql="select title, text, link from news";
+       $sql="select title, text, link from news ORDER  BY title DESC";
         $stmt=$this->pdo->query($sql);
           if($stmt)
               $result=$stmt->fetchAll();

@@ -3,7 +3,7 @@ include "header.php";
 $db=DBModel::getDB();
 ?>
 <ul>
-    <?php foreach($db->getAllNews() as $allNews):?>
+    <?php foreach($this->data as $allNews):?>
     <li>
         <p><?=$allNews['title']?></p>
           <hr>

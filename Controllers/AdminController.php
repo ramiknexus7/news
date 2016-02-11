@@ -5,3 +5,9 @@
  * Date: 11.02.2016
  * Time: 15:48
  */
+class AdminController{
+
+    public  function actionAddNews(){
+
+    }
+}
